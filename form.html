@@ -3,10 +3,11 @@
 	<script>
 function Вітаю(){
 x=document.frm.name.value;
-y=document.frm.txt.value;
+y=document.frm.sname.value;
+d=document.frm.lname.value;
 z=document.frm.em.value;
 k=document.frm.dt.value;
-alert("Вітаю, "+x+""+y+". \n Ви зареєстровані на сайті Професії майбутнього з такими даними:\n Ваша пошта - "+z+" \n Дата народження - "+k+"")}
+alert("Вітаю, "+x+""+y+""+d+". \n Ви зареєстровані на сайті Професії майбутнього з такими даними:\n Ваша пошта - "+z+" \n Дата народження - "+k+"")}
 </script>
 	
 	<meta charset="UTF-8">
@@ -22,9 +23,9 @@ alert("Вітаю, "+x+""+y+". \n Ви зареєстровані на сайт�
 <fieldset>
 <legend>Заповнити обов'язково</legend>
 
-	<p>Прізвище: <input type="text" name="txt" placeholder="Уведіть прізвище"  required>
-		<p>Ім'я: <input type="text" name="txt" placeholder="Уведіть ім'я"  required>
-		<p>По батькові: <input type="text" name="txt" placeholder="Уведіть ім'я по батькові "  required>
+	<p>Прізвище: <input type="text" name="name" placeholder="Уведіть прізвище"  required>
+		<p>Ім'я: <input type="text" name="sname" placeholder="Уведіть ім'я"  required>
+		<p>По батькові: <input type="text" name="lname" placeholder="Уведіть ім'я по батькові "  required>
 <p>Пароль: <input type="password" name="psw" placeholder="Уведіть пароль"  required>
 <p>Дата: <input type="date" name="dt" placeholder="Уведіть дату"   required>
 <p>Email: <input type="email" name="em" placeholder="Уведіть адрес  пошти"   required>
